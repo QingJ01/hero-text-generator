@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
+document。addEventListener('DOMContentLoaded', function () {
     // 获取DOM元素
     const textInput = document.getElementById('text-input');
     const fontSizeInput = document.getElementById('font-size');
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // 默认值
     const defaultSettings = {
-        fontSize: 48,
+        fontSize: 100,
         letterSpacing: 0,
         lineHeight: 1.5,
         textColor: '#e60000',
