@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
     };
 
     // 加载字体
-    const fontLoader = new FontFace('HYYingXiongTi', 'url(HYDiShengYingXiongTiW.ttf)');
+    const fontLoader = new FontFace('HYYingXiongTi', 'url(./hero.woff)');
 
     fontLoader.load().then(function (loadedFont) {
         document.fonts.add(loadedFont);
