@@ -1,4 +1,4 @@
-document。addEventListener('DOMContentLoaded', function () {
+document。addEventListener('DOMContentLoaded'， function () {
     // 获取DOM元素
     const textInput = document.getElementById('text-input');
     const fontSizeInput = document.getElementById('font-size');
@@ -46,7 +46,7 @@ document。addEventListener('DOMContentLoaded', function () {
     };
 
     // 加载字体
-    const fontLoader = new FontFace('HYYingXiongTi', 'url(./hero.woff)');
+    const fontLoader = new FontFace('HYYingXiongTi', 'url(https://gh-proxy.com/github.com/QingJ01/hero-text-generator/raw/refs/heads/main/hero.woff)');
 
     fontLoader.load().then(function (loadedFont) {
         document.fonts.add(loadedFont);
