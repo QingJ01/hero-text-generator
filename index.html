@@ -4,16 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>英雄体红色文字生成器</title>
+    <title>英雄体红色文字生成器 - 在线生成权威风格文字图片</title>
+    <meta name="description" content="免费生成抖音上很火的权威字体，支持自定义字体大小、颜色、背景和阴影效果，一键导出高质量图片。">
+    <meta name="keywords" content="英雄体文字生成器,权威字体,英雄体,贝利亚权威,权威,权威图片,权威图片生成,文字图片生成,在线文字设计,英雄风格文字,文字特效">
+    <meta name="author" content="QingJ01">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="英雄体红色文字生成器">
+    <meta property="og:description" content="免费生成抖音上很火的权威字体，支持自定义字体大小、颜色、背景和阴影效果，一键导出高质量图片。">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://byebug.cn/hero-text-generator/">
     <link rel="icon"
-        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>文</text></svg>"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>字</text></svg>"
         type="image/svg+xml">
     <style>
         @font-face {
             font-family: 'HYYingXiongTi';
-            src: url('https://gh-proxy.com/github.com/QingJ01/hero-text-generator/raw/refs/heads/main/hero.woff') format('woff');
+            src: url('./hero.woff') format('woff');
             font-weight: normal;
             font-style: normal;
+            font-display: swap;
+        }
+
+        /* 添加字体加载失败时的备用字体 */
+        .logo-icon,
+        #text-preview {
+            font-family: 'HYYingXiongTi', 'Microsoft YaHei', sans-serif;
         }
 
         :root {
@@ -84,7 +100,6 @@
         }
 
         .logo-icon {
-            font-family: 'HYYingXiongTi', 'Microsoft YaHei', sans-serif;
             font-size: 24px;
             color: var(--primary-color);
         }
@@ -271,7 +286,7 @@
         }
 
         #text-preview {
-            font-family: 'HYYingXiongTi', 'Microsoft YaHei', sans-serif;
+            font-size: 48px;
             white-space: pre-wrap;
             text-align: center;
             position: absolute;
